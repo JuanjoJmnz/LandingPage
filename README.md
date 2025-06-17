@@ -1,22 +1,17 @@
 <!-- LOGO -->
 <div align="center">
   <a href="https://github.com/usuario_github/nombre_repositorio">
-    <img src="images/logo.png" alt="Logo del Proyecto" width="80" height="80">
+    <img src="https://github.com/user-attachments/assets/9feade9b-18c4-45c9-86da-2edabfb67610" alt="Logo del Proyecto" width="300" height="300">
   </a>
 
   <h3 align="center">Landing Page</h3>
 
   <p align="center">
     Este proyecto consiste en una landing page para promocionar una academia de idiomas que ofrece clases online y presenciales, con grupos reducidos y profesores nativos. Incluye secciones sobre la oferta de idiomas, enlaces a redes sociales y un menú de navegación adaptable para dispositivos móviles.
-    <br />
-    <a href="https://github.com/usuario_github/nombre_repositorio"><strong>Ver documentación »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/usuario_github/nombre_repositorio">Ver Demo</a>
+    <br/>
+    <a href="https://github.com/JuanjoJmnz/LandingPage/issues">Reportar Error</a>
     ·
-    <a href="https://github.com/usuario_github/nombre_repositorio/issues">Reportar Error</a>
-    ·
-    <a href="https://github.com/usuario_github/nombre_repositorio/issues">Sugerir Mejora</a>
+    <a href="https://github.com/JuanjoJmnz/LandingPage/issues">Sugerir Mejora</a>
   </p>
 </div>
 
