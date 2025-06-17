@@ -35,9 +35,13 @@
 
 ## 🧾 Sobre el Proyecto
 
-[![Captura del Proyecto][captura-pantalla]](https://example.com)
+![image](https://github.com/user-attachments/assets/1ff747c7-4996-4dbb-82b4-78817b095e82)
+![image](https://github.com/user-attachments/assets/12395ad7-b3a1-4a19-a984-bc4f9a124c65)
 
-Breve explicación del propósito y motivación del proyecto.
+
+El propósito de este proyecto es crear una landing page atractiva y funcional para una academia de idiomas, que permita captar la atención de potenciales estudiantes y ofrecer información clara sobre los cursos disponibles.<br>
+La motivación principal fue diseñar una página sencilla pero moderna y responsiva, que pueda ser fácilmente adaptada y escalada para diferentes necesidades comerciales, destacando las ventajas competitivas de la academia como clases <br>
+presenciales y online, grupos reducidos y profesores nativos. Además, se buscó aprender e integrar técnicas actuales de desarrollo web, como animaciones al hacer scroll y un menú móvil interactivo, para mejorar la experiencia de usuario.
 
 
 
