@@ -17,21 +17,6 @@
 
 ---
 
-## 📋 Tabla de Contenidos
-
-- [Sobre el Proyecto](#sobre-el-proyecto)
-  - [Tecnologías Usadas](#tecnologias-usadas)
-- [Primeros Pasos](#primeros-pasos)
-  - [Requisitos Previos](#requisitos-previos)
-  - [Para ejecutar el proyecto](#para-ejecutar-el-proyecto)
-- [Roadmap](#roadmap)
-- [Contribuciones](#contribuciones)
-- [Autor](#autor)
-- [Licencia](#licencia)
-- [Para más](#para-mas)
-
----
-
 ## 🧾 Sobre el Proyecto
 
 ![image](https://github.com/user-attachments/assets/1ff747c7-4996-4dbb-82b4-78817b095e82)
