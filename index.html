@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Enlace a BoxIcons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Enlace a RemixIcons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+
+    <!--Enlace a Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--Enlace a las animaciones-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Landing Page - Academia de Idiomas</title>
+</head>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.png">
+        </a>
+        <ul class="navlist">
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Trabaja con nosotros</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <div class="contenido-derecha">
+            <a href="#" class="nav-btn">Iniciar Sesión</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h5 data-aos="fade-right" , data-aos-duration="1400">#Aprende idiomas de forma fácil y efectiva</h5>
+            <h1 data-aos="zoom-in-left" , data-aos-duration="1400" , data-aos-delay="200">Habla con confianza</h1>
+            <p data-aos="fade-right" , data-aos-duration="1400" , data-aos-delay="300">Clases online o presenciales,
+                grupos reducidos y profesores nativos. Empieza desde cero o mejora tu nivel en semanas.</p>
+            <div class="main-hero" data-aos="flip-down" , data-aos-duration="1400" , data-aos-delay="400">
+                <a href="#planes" class="btn">Empieza hoy</a>
+                <a href="#contacto" class="precio">Solicita información</a>
+            </div>
+        </div>
+        <div class="hero-img" data-aos="zoom-in" , data-aos-duration="1400">
+            <img src="img/hero.jpg" alt="Estudiantes aprendiendo idiomas">
+        </div>
+    </section>
+
+<section class="idiomas" id="idiomas">
+    <h2 data-aos="fade-up" data-aos-duration="1200">Idiomas que ofrecemos</h2>
+    <div class="idiomas-contenedor">
+        <div class="idioma-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+            <img src="img/uk-flag.png" alt="Inglés">
+            <h3>Inglés</h3>
+            <p>Comunícate globalmente con el idioma más internacional.</p>
+        </div>
+        <div class="idioma-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+            <img src="img/spain-flag.png" alt="Español">
+            <h3>Español</h3>
+            <p>Domina el segundo idioma más hablado del mundo.</p>
+        </div>
+        <div class="idioma-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+            <img src="img/france-flag.png" alt="Francés">
+            <h3>Francés</h3>
+            <p>Lengua del arte, la moda y la diplomacia internacional.</p>
+        </div>
+        <div class="idioma-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+            <img src="img/germany-flag.png" alt="Alemán">
+            <h3>Alemán</h3>
+            <p>Ideal para negocios, tecnología y estudios en Europa.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <div class="icons">
+        <a href="#" data-aos="fade-in" , data-aos-duration="1400" , data-aos-delay="600"><i
+                class="ri-facebook-fill"></i></a>
+        <a href="#" data-aos="fade-in" , data-aos-duration="1400" , data-aos-delay="700"><i
+                class="ri-youtube-fill"></i></a>
+        <a href="#" data-aos="fade-in" , data-aos-duration="1400" , data-aos-delay="800"><i
+                class="ri-twitter-x-fill"></i></a>
+    </div>
+
+    <div class="scroll" data-aos="zoom-aout-down" , data-aos-duration="1400" , data-aos-delay="550">
+        <a href="#"><i class="ri-scroll-to-bottom-line"></i> Ir al final</a>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 1
+        });
+    </script>
+</body>
+
+<footer class="footer">
+    <div class="footer-copy">
+        <p>&copy; <span id="year"></span> Juan José Jiménez Gil. 2025. Todos los derechos reservados.</p>
+    </div>
+</footer>
+</html>
