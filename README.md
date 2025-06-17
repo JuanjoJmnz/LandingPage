@@ -23,8 +23,7 @@
   - [Tecnologías Usadas](#tecnologias-usadas)
 - [Primeros Pasos](#primeros-pasos)
   - [Requisitos Previos](#requisitos-previos)
-  - [Instalación](#instalacion)
-- [Uso](#uso)
+  - [Para ejecutar el proyecto](#para-ejecutar-el-proyecto)
 - [Roadmap](#roadmap)
 - [Contribuciones](#contribuciones)
 - [Autor](#autor)
@@ -36,6 +35,9 @@
 ## 🧾 Sobre el Proyecto
 
 ![image](https://github.com/user-attachments/assets/1ff747c7-4996-4dbb-82b4-78817b095e82)
+
+---
+
 ![image](https://github.com/user-attachments/assets/12395ad7-b3a1-4a19-a984-bc4f9a124c65)
 
 
@@ -43,16 +45,19 @@ El propósito de este proyecto es crear una landing page atractiva y funcional p
 La motivación principal fue diseñar una página sencilla pero moderna y responsiva, que pueda ser fácilmente adaptada y escalada para diferentes necesidades comerciales, destacando las ventajas competitivas de la academia como clases <br>
 presenciales y online, grupos reducidos y profesores nativos. Además, se buscó aprender e integrar técnicas actuales de desarrollo web, como animaciones al hacer scroll y un menú móvil interactivo, para mejorar la experiencia de usuario.
 
-
+---
 
 ### 🛠️ Tecnologías Usadas
 
-Listado de tecnologías (ajusta según el proyecto):
-
-* ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-* ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-* ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-
+- HTML5
+- CSS3 (con variables CSS y media queries)
+- JavaScript (para interacción del menú y actualización del año)
+- Librerías externas:
+  - [AOS](https://michalsnik.github.io/aos/)
+  - [BoxIcons](https://boxicons.com/)
+  - [RemixIcons](https://remixicon.com/)
+  - [FontAwesome](https://fontawesome.com/)
+  - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
 
 ---
 
@@ -60,58 +65,38 @@ Listado de tecnologías (ajusta según el proyecto):
 
 ### Requisitos Previos
 
-Lista los prerrequisitos para ejecutar el proyecto:
+- Visual Studio Code
 
-```sh
-Java 17+
-Maven 3+
-MySQL
-```
+### Para ejecutar el proyecto:
 
-### Instalación
-Clona el repositorio:
-
-```sh
-git clone https://github.com/usuario_github/nombre_repositorio.git
-Crea la base de datos y configura el application.properties
-```
-
-Ejecuta el proyecto con Maven:
-
-```sh
-mvn spring-boot:run
-```
+1. Clona o descarga el repositorio.
+2. Abre el archivo `index.html` en tu navegador favorito.
+3. Disfruta de la landing page totalmente funcional y responsiva.
 
 ---
 
-## ⚙️ Uso
-Explica cómo usar tu proyecto, con ejemplos o capturas si aplica.
+## Roadmap 🗺️
 
----
-
-## Roadmap 🗺️ 
-
-- [ ] 
-- [ ]  
-- [ ] 
-- [ ] 
-- [ ]  
-
+- [x] Diseño básico y estructura HTML/CSS inicial
+- [x] Implementar header fijo y menú responsive
+- [x] Integrar animaciones con AOS (scroll animations)
+- [ ] Mejorar accesibilidad y SEO
+- [ ] Añadir formulario de contacto funcional
+- [ ] Optimizar versión móvil y pruebas cross-browser
+- [ ] Implementar sistema de reserva o inscripción para clases
+- [ ] Añadir sección de testimonios de alumnos
+- [ ] Integrar backend para gestión dinámica de contenido
 
 ---
 
 ## 🤝 Contribuciones
 ¡Toda contribución es bienvenida! Para colaborar:
 
-Haz un fork del proyecto
-
-Crea una rama (git checkout -b feature/NuevaFeature)
-
-Realiza tus cambios y haz commit (git commit -m 'Agrega nueva feature')
-
-Haz push (git push origin feature/NuevaFeature)
-
-Abre un Pull Request
+1. Haz un fork del proyecto
+2. Crea una rama (git checkout -b feature/NuevaFeature)
+3. Realiza tus cambios y haz commit (git commit -m 'Agrega nueva feature')
+4. Haz push (git push origin feature/NuevaFeature)
+5. Abre un Pull Request
 
 ---
 
